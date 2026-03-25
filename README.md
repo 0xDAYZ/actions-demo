@@ -2,3 +2,4 @@
 
 - Create a simple action using web editor
 - Run the action
+- Fix errors
