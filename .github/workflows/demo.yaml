@@ -1,5 +1,12 @@
 name: My First Workflow
-on: push
+# on: push
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual run'
+        required: true
+        default: 'On-demand testing'
 
 jobs:
   first_job:
